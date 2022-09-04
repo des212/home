@@ -1,0 +1,1 @@
+alert("You are about to enter project website");
