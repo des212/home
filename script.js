@@ -1,1 +1,1 @@
-alert("You are about to enter project website");
+alert("Hello, you are about to enter homepage");
