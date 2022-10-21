@@ -1,0 +1,33 @@
+
+      main{
+        padding: 10px 0px;
+      }
+      @keyframes move {
+      0%   {left:0px;}
+      25%  {left:10px;}
+      75%  {left:-10px;}
+      100% {left:0px;}
+    }
+        .move{
+          position: relative;
+          animation: move 0.2s ease-in-out normal;
+        }
+        .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          user-select: none;
+        }
+  
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+        footer{
+            display: block;
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+        }
