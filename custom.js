@@ -1,7 +1,7 @@
 $(document).ready(function () {
 });
 
-
+//drag sort
 $(function() {
    $( "#answers" ).sortable({
       update: function(event, ui) {
