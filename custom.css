@@ -47,3 +47,11 @@
   float: left;
   width: 100%;
 }
+@media screen and(max-width: 700px){
+  .task{
+    max-width: 100%;
+  }
+  #questions, #answers{
+    width: 50%;
+  }
+}
