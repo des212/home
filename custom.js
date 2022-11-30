@@ -9,4 +9,4 @@ $(function() {
          $("#result").text (answerOrder);
       }
    });
-/
+});
