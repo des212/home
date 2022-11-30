@@ -1,7 +1,12 @@
-let b = false;
 $(document).ready(function () {
-   $("#para").draggable();
-   $("#trim").click(function() {
-      alert((new Date).getTime());
-   });
 });
+
+
+$(function() {
+   $( "#answers" ).sortable({
+      update: function(event, ui) {
+         var answerOrder = $(this).sortable('toArray').toString();
+         $("#result").text (answerOrder);
+      }
+   });
+/
