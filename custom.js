@@ -1,4 +1,4 @@
-//public variables
+//public variables 
 var questionOrder;
 var answerOrder;
 
