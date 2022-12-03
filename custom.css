@@ -1,12 +1,13 @@
-.task {
+.task-container{
   padding: 20px 5px;
   background-color: #f4f4f4;
+  display: inline-block;
+}
+.task {
+  padding: 20px 5px;
   width: fit-content;
   display: flex;
   flex-wrap: wrap;
-  background-color: salmon;
-
-
 }
 
 #answers {
@@ -45,6 +46,13 @@
   width: 200px;
   margin: 0px;
   padding: 0px;
+}
+#result{
+  float: left;
+  padding: 5px;
+  background-color: aliceblue;
+  width: 90%;
+  margin: auto;
 }
 #id{
   float: left;
